@@ -147,7 +147,7 @@ def temperature_range_1(start):
 def temperature_range_2(start, end):
 
     # Setting Variables and querying the temperatures starting at the input date in the url 
-    # AND using the end date in the url as well
+    # AND using the end date in the url
     date = Measurement.date
     temperature = Measurement.tobs
     
